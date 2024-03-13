@@ -52,11 +52,11 @@ button {
 /*******************************/
 
 .container-md {
-    max-width: 720px;
+    max-width: 960px;
 }
 
 .container-sm {
-    max-width: 540px;
+    max-width: 720px;
 }
 
 /*** UTILITIES ********************/
@@ -129,19 +129,6 @@ header {
 
 /*** MAIN ********************/
 /*****************************/
-
-/*** Hero Section - MAIN ********************/
-
-#hero {
-    background-color: var(--green_);
-}
-
-/*** Hero Section - MAIN ********************/
-
-#about {
-    background-color: var(--green_);
-    color: var(--white_);
-}
 
 /*** DEBUG ********************/
 /******************************/
