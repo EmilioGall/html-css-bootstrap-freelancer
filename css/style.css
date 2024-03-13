@@ -12,3 +12,97 @@
     --headers-h_: 60px;
     --icon-h_: 40px;
 }
+
+/*** LAYOUT ********************/
+/*******************************/
+
+.container-md {
+    max-width: 720px;
+}
+
+.container-sm {
+    max-width: 540px;
+}
+
+/*** UTILITIES ********************/
+/**********************************/
+
+/* Typography ********************/
+
+.txt-0 {
+    font-size: calc(.1vw + .4rem);
+    line-height: calc(.1vw + .4rem);
+}
+
+.txt-1 {
+    font-size: calc(.2vw + .5rem);
+    line-height: calc(.2vw + .7rem);
+}
+
+.txt-2 {
+    font-size: calc(.2vw + .5rem);
+    line-height: calc(.2vw + .7rem);
+    font-weight: 700;
+}
+
+.txt-h3 {
+    font-size: calc(.2vw + .7rem);
+    /* line-height: calc(.2vw + .7rem); */
+    font-weight: 700;
+}
+
+.txt-h2 {
+    font-size: calc(.3vw + 1rem);
+    line-height: calc(.4vw + 1.4rem);
+    font-weight: 100;
+}
+
+.txt-h1 {
+    font-size: calc(.3vw + 2rem);
+    line-height: calc(.4vw + 1.4rem);
+}
+
+/*** Colors ********************/
+
+.txt-dark {
+    color: var(--dark_);
+}
+
+.txt-white {
+    color: var(--white_);
+}
+
+.txt-green {
+    color: var(--green_);
+}
+
+/*** Background Colors ********************/
+
+.bg-dark {
+    background-color: var(--dark_);
+}
+
+.bg-green {
+    background-color: var(--green_);
+}
+
+.bg-grey {
+    background-color: var(--grey_);
+}
+
+/*** HEADER ********************/
+/*******************************/
+
+header {
+    background-color: var(--dark_);
+    /* height: var(--headers-h); */
+}
+
+
+
+/*** DEBUG ********************/
+/******************************/
+
+.b-red {
+    border: 5px solid red;
+}
