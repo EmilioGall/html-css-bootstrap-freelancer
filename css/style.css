@@ -1,5 +1,5 @@
 /*** Variables ********************/
-/******************************/
+/**********************************/
 
 :root {
     --black_: rgba(0, 0, 0, 1);
@@ -11,6 +11,17 @@
 
     --headers-h_: 60px;
     --icon-h_: 40px;
+}
+
+/*** RESET ********************/
+/******************************/
+
+img {
+    display: block;
+    max-width: 100%;
+
+    /* debug */
+    max-height: 100px;
 }
 
 /*** LAYOUT ********************/
@@ -31,35 +42,29 @@
 
 .txt-0 {
     font-size: calc(.1vw + .4rem);
-    line-height: calc(.1vw + .4rem);
 }
 
 .txt-1 {
     font-size: calc(.2vw + .5rem);
-    line-height: calc(.2vw + .7rem);
 }
 
 .txt-2 {
     font-size: calc(.2vw + .5rem);
-    line-height: calc(.2vw + .7rem);
     font-weight: 700;
 }
 
 .txt-h3 {
     font-size: calc(.2vw + .7rem);
-    /* line-height: calc(.2vw + .7rem); */
     font-weight: 700;
 }
 
 .txt-h2 {
     font-size: calc(.3vw + 1rem);
-    line-height: calc(.4vw + 1.4rem);
     font-weight: 100;
 }
 
 .txt-h1 {
     font-size: calc(.3vw + 2rem);
-    line-height: calc(.4vw + 1.4rem);
 }
 
 /*** Colors ********************/
@@ -98,7 +103,14 @@ header {
     /* height: var(--headers-h); */
 }
 
+/*** MAIN ********************/
+/*****************************/
 
+/*** Hero Section - MAIN ********************/
+
+#hero {
+    background-color: var(--green_);
+}
 
 /*** DEBUG ********************/
 /******************************/
