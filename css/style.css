@@ -24,6 +24,30 @@ img {
     max-height: 100px;
 }
 
+ul {
+    list-style-type: none;
+}
+
+menu {
+    list-style-type: none;
+}
+
+a {
+    display: inline-block;
+    color:inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    background: none;
+	color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
 /*** LAYOUT ********************/
 /*******************************/
 
@@ -116,5 +140,9 @@ header {
 /******************************/
 
 .b-red {
+    border: 5px solid red;
+}
+
+#portfolio li {
     border: 5px solid red;
 }
