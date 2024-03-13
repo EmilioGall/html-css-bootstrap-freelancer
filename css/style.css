@@ -136,6 +136,13 @@ header {
     background-color: var(--green_);
 }
 
+/*** Hero Section - MAIN ********************/
+
+#about {
+    background-color: var(--green_);
+    color: var(--white_);
+}
+
 /*** DEBUG ********************/
 /******************************/
 
