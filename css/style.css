@@ -39,23 +39,14 @@ a {
     cursor: pointer;
 }
 
-button {
-    background: none;
-	color: inherit;
-	border: none;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
-}
-
 /*** LAYOUT ********************/
 /*******************************/
 
-.container-md {
+.ms-container-md {
     max-width: 960px;
 }
 
-.container-sm {
+.ms-container-sm {
     max-width: 720px;
 }
 
@@ -107,25 +98,20 @@ button {
 
 /*** Background Colors ********************/
 
-.bg-dark {
+.bg-dark_ {
     background-color: var(--dark_);
 }
 
-.bg-green {
+.bg-green_ {
     background-color: var(--green_);
 }
 
-.bg-grey {
+.bg-grey_ {
     background-color: var(--grey_);
 }
 
 /*** HEADER ********************/
 /*******************************/
-
-header {
-    background-color: var(--dark_);
-    /* height: var(--headers-h); */
-}
 
 /*** MAIN ********************/
 /*****************************/
@@ -134,9 +120,9 @@ header {
 /******************************/
 
 .b-red {
-    border: 5px solid red;
+    border: 1px solid red;
 }
 
 #portfolio li {
-    border: 5px solid red;
+    border: 1px solid blueviolet;
 }
