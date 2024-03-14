@@ -41,10 +41,12 @@ a {
 
 .ms-container-md {
     max-width: 960px;
+    padding: 0 10px;
 }
 
 .ms-container-sm {
     max-width: 720px;
+    padding: 0 10px;
 }
 
 /*** UTILITIES ********************/
@@ -87,6 +89,15 @@ a {
 #hero img {
     width: 30%;
 }
+
+/*** Portfolio - Main ********************/
+
+#portfolio img {
+    border-radius: 20px;
+    object-fit:fill;
+}
+
+
 /*** DEBUG ********************/
 /******************************/
 
@@ -94,6 +105,6 @@ a {
     border: 1px solid red;
 }
 
-#portfolio li {
-    border: 1px solid blueviolet;
+.b-blue {
+    border: 1px solid blue;
 }
