@@ -49,6 +49,12 @@ a {
     padding: 0 10px;
 }
 
+.ms-container-flex {
+    max-width: 960px;
+    width: 70%;
+    padding: 0 10px;
+}
+
 /*** UTILITIES ********************/
 /**********************************/
 
@@ -105,6 +111,32 @@ a {
     color: white;
 }
 
+/*** Contact - Main ********************/
+
+#contact button {
+    border-radius: 5px;
+    color: white;
+    background-color: var(--green_);
+}
+
+#contact input, #contact textarea {
+    border: none;
+}
+
+/*** MEDIA QUERIES ********************/
+/******************************/
+
+@media screen and (min-width: 768px) {
+    .ms-container-flex {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .ms-container-flex {
+        width: 100%;
+    }
+}
 
 /*** DEBUG ********************/
 /******************************/

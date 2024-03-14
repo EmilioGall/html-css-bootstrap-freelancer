@@ -178,7 +178,7 @@
             <!-- About Section -->
             <section id="about" class="text-white bg-green_">
 
-                <div class="container-sm ms-container-sm d-flex flex-column align-items-center p-3 b-red">
+                <div class="container-sm ms-container-flex d-flex flex-column align-items-center p-3 b-red">
 
                     <h2 class="fs-2">ABOUT</h2>
 
@@ -217,7 +217,7 @@
             <!-- Contact Me Section -->
             <section id="contact">
 
-                <div class="container-sm ms-container-sm d-flex flex-column align-items-center p-3 b-red">
+                <div class="container-sm ms-container-flex d-flex flex-column align-items-center p-3 b-red">
 
                     <h2 class="txt-dark txt-h2">CONTACT ME</h2>
 
@@ -231,25 +231,61 @@
 
                     </div>
 
-                    <form class="container-fluid d-flex flex-column" action="">
+                    <form class="row row-cols-1 px-2">
 
-                        <input class="col-12" type="text">
+                        <div class="form-floating">
+
+                            <input type="text" class="form-control" id="name" placeholder="Name">
+
+                            <label for="name" class="ms-1">
+                                Name
+                            </label>
+
+                        </div>
 
                         <hr>
+
+                        <div class="form-floating">
+
+                            <input type="email" class="form-control" id="email" placeholder="Email address">
+
+                            <label for="email" class="ms-1">
+                                Email address
+                            </label>
+
+                        </div>
+
+                        <hr>
+
+                        <div class="form-floating">
+
+                            <input type="tel" class="form-control" id="phone-number" placeholder="Phone Number">
+
+                            <label for="phone-number" class="ms-1">
+                                Phone Number
+                            </label>
+
+                        </div>
                         
-                        <input class="col-12" type="text">
-
                         <hr>
+
+                        <div class="form-floating">
+                            
+                            <textarea name="message" id="message" class="form-control fs-5"  cols="30" rows="30"  placeholder="Message">
+                            
+                            </textarea>
+
+                            <label for="message" class="ms-1">
+                                Message
+                            </label>
+
+                        </div>
                         
-                        <input class="col-12" type="text">
-
-                        <hr>
-                        
-                        <input class="col-12" type="text">
-
                         <hr>
 
-                        <button class="txt-white bg-green_ col-2">Send</button>
+                        <button type="submit" class="btn col-2">
+                            Submit
+                        </button>
 
                     </form>
 
