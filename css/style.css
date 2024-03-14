@@ -97,6 +97,14 @@ a {
     object-fit:fill;
 }
 
+/*** About - Main ********************/
+
+#about button {
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+
 
 /*** DEBUG ********************/
 /******************************/
