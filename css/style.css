@@ -87,13 +87,17 @@ a {
 /*** HEADER ********************/
 /*******************************/
 
+header nav div .navbar-toggler {
+    border: 2px solid white;
+}
+
 /*** MAIN ********************/
 /*****************************/
 
 /*** Hero - Main ********************/
 
 #hero img {
-    width: 30%;
+    width: 50%;
 }
 
 /*** Portfolio - Main ********************/
@@ -130,6 +134,7 @@ a {
 
 #contacts p>a {
     color: var(--green_);
+    font-weight: 600;
 }
 
 #contacts i {
@@ -158,15 +163,4 @@ a {
     .ms-container-flex {
         width: 100%;
     }
-}
-
-/*** DEBUG ********************/
-/******************************/
-
-.b-red {
-    border: 1px solid red;
-}
-
-.b-blue {
-    border: 1px solid blue;
 }
