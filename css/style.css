@@ -58,6 +58,18 @@ a {
 /*** UTILITIES ********************/
 /**********************************/
 
+.line-w_ {
+    border: 2px solid white;
+    width: 30%;
+    border-radius: 2px;
+}
+
+.line-d_ {
+    border: 2px solid var(--dark_);
+    width: 30%;
+    border-radius: 2px;
+}
+
 /* Typography ********************/
 
 /*** Colors ********************/
@@ -95,6 +107,11 @@ header nav div .navbar-toggler {
 /*****************************/
 
 /*** Hero - Main ********************/
+
+
+#hero {
+    margin-top: 50px;
+}
 
 #hero img {
     width: 50%;
